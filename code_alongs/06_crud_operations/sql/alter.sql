@@ -1,0 +1,9 @@
+--don't run in ui
+ALTER TABLE database.duckdb
+ADD COLUMN learnt BOOLEAN DEFAULT FALSE;
+
+ALTER TABLE database.sql
+ADD COLUMN learnt BOOLEAN DEFAULT FALSE;
+
+ALTER TABLE programming.python
+ADD COLUMN learnt BOOLEAN DEFAULT FALSE;
