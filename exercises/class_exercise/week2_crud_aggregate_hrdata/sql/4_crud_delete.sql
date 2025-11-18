@@ -1,0 +1,1 @@
+DELETE FROM staging.employees WHERE employment_year = 2001;
